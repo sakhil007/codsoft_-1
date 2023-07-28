@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Potfilio project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/92a2ecb4a5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="/img/Screenshot 2023-07-17 214341.png" class="logo" />
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contect</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Web developer</p>
+          <h1>
+            I'am <span> Sakhil Mondal </span><br />
+            From India
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------start about ----------  -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/img/user sakhil.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I was born in India. Now I'm working junior web developer. I love
+              my job! I hang out with a lot of tech nerds. I am a tech and
+              political geek myself. I regularly attend tech meetups and I know
+              a lot of powerful people in the tech industry. I do not like pushy
+              people. If you are nice, I will go out of my way to help you. I
+              like to treat people with respect. I enjoy helping people and I
+              love to learn about new technologies… Story of my life. I enjoy
+              meeting new people. Reach out if you want to talk to me about
+              emerging tech, creating software products or baseball. I educate,
+              refine and drive myself to be a better person - I am constantly
+              learning because I never settle - I stay calm when faced with
+              adversity - I focus on making high-quality decisions
+            </p>
+            <div class="tab-title">
+              <p class="tab-link active-link" onclick="opentab('skill')">
+                Skill
+              </p>
+              <p class="tab-link" onclick="opentab('experiens')">Experience</p>
+              <p class="tab-link" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-content active-tab" id="skill">
+              <ul>
+                <li><span>Web Desing</span><br />E-Commers ,and more</li>
+                <li>
+                  <span>web developer</span><br />
+                  Tech and IT Services
+                </li>
+                <li><span>UX/UI</span><br />user experience,user interface</li>
+              </ul>
+            </div>
+            <div class="tab-content" id="experiens">
+              <ul>
+                <li><span>UX/UI</span><br />Good knowledge</li>
+                <li><span>Web Desing</span><br />intern at CodSoft</li>
+                <li>
+                  <span>programming</span><br />C,Python,Java,DSA,DBMS( Core
+                  knowledge)
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content" id="Education">
+              <ul>
+                <li><span>Diploma</span><br />Dumkal polytechnic</li>
+                <li><span>12th</span><br />SCM High school</li>
+                <li><span>10th</span><br />SCM High school</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------End about ----------  -->
+    <!-- ------------------start service -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <h2>Web Design</h2>
+            <p>
+              "High-quality web design services: Modern, mobile-friendly
+              websites that elevate your online presence and captivate your
+              audience. Get noticed today!"
+            </p>
+            <a href="#">Lernmore</a>
+          </div>
+          <div>
+            <h2>Web Develope</h2>
+            <p>
+              "Expert web developer service: Custom solutions, seamless
+              functionality, and optimized performance for your online success.
+              Elevate your website now!"
+            </p>
+            <a href="#">Lernmore</a>
+          </div>
+          <div>
+            <h2>SEO/SMM</h2>
+            <p>
+              "Powerful SEO services: Boost your website's visibility, drive
+              organic traffic, and rank higher on search engines. Dominate your
+              market with our proven strategies!"
+            </p>
+            <a href="#">Lernmore</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------end service -->
+    <!-- --------------------start potfolio------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/img/work1 sk.png" />
+            <div class="layer">
+              <h3>Web Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+                excepturi consequuntur recusandae, ut possimus ad.
+              </p>
+              <a href="#">See More</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/work2sk.jpg" />
+            <div class="layer">
+              <h3>Web Develope</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+                excepturi consequuntur recusandae, ut possimus ad.
+              </p>
+              <a href="#">See More</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/img/work3sk.jpg" />
+            <div class="layer">
+              <h3>SEO/SMM</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
+                excepturi consequuntur recusandae, ut possimus ad.
+              </p>
+
+              <a href="#">See More</a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See My More Work</a>
+      </div>
+    </div>
+    <!-- --------------------end potfolio------------------- -->
+    <!-- -----------------------start contact------------------------ -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>sakhilmondal456@gmail.com</p>
+            <p>0123456789</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100059902286530"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/sakhilmondal-dev/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/iam_sakhil/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="/img/Sakhil cv.pdf" download class="btn">Downlod My Cv</a>
+          </div>
+          <div class="contact-right">
+            <form
+              action="https://formsubmit.co/b9efa9becc8661013d2aa225bf8240c6"
+              method="post"
+            >
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Enter Your Email"
+                required
+              />
+              <textarea
+                name="Massage"
+                rows="7"
+                placeholder="Your Massage"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="end">CopyRight@2023 Desing and Developed By Sakhil</p>
+    <!-- ------------------------End Contact--------------------------- -->
+    <script>
+      var tablink = document.getElementsByClassName("tab-link");
+      var tabcontent = document.getElementsByClassName("tab-content");
+      function opentab(tabname) {
+        for (tablinke of tablink) {
+          tablinke.classList.remove("active-link");
+        }
+        for (tabcontente of tabcontent) {
+          tabcontente.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
